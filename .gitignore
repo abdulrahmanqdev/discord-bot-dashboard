@@ -1,0 +1,39 @@
+.qodo
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Environment & config (contains secrets)
+.env
+.env.local
+.env.*.local
+client/src/settings.js
+server/src/settings.js
+server/src/bot/Config/botConfig.js
+server/src/serviceAccountKey.json
+server/src/bot/Config/serviceAccountKey.json
+
+# Sample/example config files are kept (not added here)
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
